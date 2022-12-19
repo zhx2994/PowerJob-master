@@ -36,7 +36,7 @@ public class WeiXinAlarmService implements Alarmable {
             }
 
             try {
-                weiXinUtils.alterMarkdown(content, webHook, Collections.singletonList(phone));
+                weiXinUtils.alterText(content, webHook, Collections.singletonList(phone));
             }catch (Exception e) {
                 log.error("[WeiXinAlarmService] send weixin message failed, reason is {}", e.getMessage());
             }
