@@ -47,7 +47,6 @@
 
         <!-- skip this module when deploying. -->
         <maven.deploy.skip>true</maven.deploy.skip>
-
     </properties>
 
     <dependencyManagement>
